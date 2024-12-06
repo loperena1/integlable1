@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Loperena</title>
+    <style>
+        /* Estilo del cuerpo */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f7f9fc; /* Fondo claro */
+            color: #333; /* Texto principal */
+        }
+
+        /* Encabezados */
+        h1 {
+            color: #2c3e50; /* Azul oscuro */
+            text-align: center;
+        }
+        h2 {
+            color: #2980b9; /* Azul medio */
+        }
+
+        /* Enlaces */
+        a {
+            color: #3498db; /* Azul */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Listas */
+        ul, ol {
+            margin-left: 20px;
+        }
+
+        /* Tablas */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+            background-color: #ecf0f1; /* Fondo gris claro */
+        }
+        th {
+            background-color: #3498db; /* Azul */
+            color: white;
+            padding: 10px;
+        }
+        td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        /* Formulario */
+        form {
+            margin-top: 30px;
+            background-color: #ecf0f1; /* Fondo gris claro */
+            padding: 20px;
+            border-radius: 8px;
+        }
+        input, button {
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+            max-width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #2980b9; /* Azul */
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1abc9c; /* Verde agua */
+        }
+
+        /* Imagen */
+        img {
+            display: block;
+            margin: 20px auto;
+            border: 3px solid #3498db;
+            border-radius: 50%; /* Redondear la imagen */
+        }
+    </style>
+</head>
+<body>
+    <!-- Título principal -->
+    <h1>Sobre Mi</h1>
+
+    <!-- Introducción -->
+    <h2>Introducción</h2>
+    <p>¡Hola! Mi nombre es <strong>Esneider Loperena</strong>. Soy un apasionado de la tecnología y el desarrollo web. Me encanta aprender nuevas habilidades y trabajar en proyectos interesantes. Bienvenidos a mi página personal.</p>
+
+    <!-- Hoja de vida -->
+    <h2>Hoja de Vida</h2>
+    <p>Actualmente estoy trabajando en mejorar mis habilidades en desarrollo web. Soy curioso, autodidacta y disfruto resolver problemas técnicos. ¡Espero que encuentres algo interesante en esta página!</p>
+
+    <!-- Imagen -->
+    <img src="imagen/loperena.jpg" alt="Foto de Esneider Loperena" width="100">
+
+    <!-- Enlaces a redes sociales -->
+    <h2>Mis Redes Sociales</h2>
+    <ul>
+        <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+    </ul>
+
+    <!-- Lista de pasatiempos -->
+    <h2>Mis Pasatiempos</h2>
+    <ul>
+        <li>Leer libros</li>
+        <li>Aprender programación</li>
+        <li>Jugar videojuegos</li>
+    </ul>
+
+    <!-- Lista de tareas pendientes -->
+    <h2>Mis Tareas Pendientes</h2>
+    <ol>
+        <li>Estudiar para el examen</li>
+        <li>Hacer ejercicio</li>
+        <li>Limpiar mi habitación</li>
+    </ol>
+
+    <!-- Tabla de horarios -->
+    <h2>Horarios Semanales</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Día</th>
+                <th>Actividad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>Estudiar para el examen</td>
+            </tr>
+            <tr>
+                <td>Martes</td>
+                <td>Hacer ejercicio</td>
+            </tr>
+            <tr>
+                <td>Miércoles</td>
+                <td>Limpiar mi habitación</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Formulario de contacto -->
+    <h2>Formulario de Contacto</h2>
+    <form action="#" method="POST">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"><br>
+
+        <label for="motivo">Motivo de contacto:</label><br>
+        <input type="text" id="motivo" name="motivo" placeholder="Escribe el motivo"><br>
+
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" placeholder="Escribe tu correo electrónico"><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
